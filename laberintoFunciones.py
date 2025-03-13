@@ -46,7 +46,7 @@ def main():
             print("\n¡Has alcanzado la meta! ¡Felicidades!")
             break
 
-        movimiento = input("\nIngrese movimiento (w: arriba, s: abajo, a: izq, d: der): ")
+        movimiento = input("\nIngrese movimiento (s: arriba, x: abajo, z: izq, c: der): ")
         fila_jugador, columna_jugador = mover_jugador(movimiento, fila_jugador, columna_jugador)
 
 if __name__ == "__main__":
