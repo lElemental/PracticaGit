@@ -27,7 +27,7 @@ def main():
 
         if movimiento == '8' and fila_jugador > 0:
             fila_jugador -= 1
-        elif movimiento == 's' and fila_jugador < FILAS - 1:
+        elif movimiento == '2' and fila_jugador < FILAS - 1:
             fila_jugador += 1
         elif movimiento == 'a' and columna_jugador > 0:
             columna_jugador -= 1
